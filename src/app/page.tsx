@@ -21,7 +21,7 @@ export default function Home() {
   return (
     <Flex direction="column" justify="center" align="center">
       <Link href="/sessions">
-        <Button onClick={newChat}>New Chat</Button>
+        <Button onClick={newChat}>Pesan Baru</Button>
       </Link>
     </Flex>
   );
