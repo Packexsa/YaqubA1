@@ -50,7 +50,7 @@ export default function Sidebar() {
       <Search />
       <Separator size="4" />
       <Link href="/sessions" prefetch={true}>
-        <Button onClick={newChat}>New Chat</Button>
+        <Button onClick={newChat}>Pesan Baru</Button>
       </Link>
       <Separator size="4" />
       <div
@@ -120,7 +120,7 @@ export default function Sidebar() {
             </Link>{" "}
             by{" "}
             <Link href="https://github.com/packexsa" prefetch={true}>
-              AprilNEA
+              Yaqub
             </Link>{" "}
             (v{packageMeta.version})
           </Strong>
