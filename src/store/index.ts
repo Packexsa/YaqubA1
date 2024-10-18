@@ -103,7 +103,7 @@ export const useAppStore = create<AppStore>()(
         ),
     })),
     {
-      name: "gemini-web",
+      name: "yaqub-web",
       version: 1,
     },
   ),
