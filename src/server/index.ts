@@ -39,6 +39,10 @@ export const appRouter = router({
         genAI.apiKey = input.apiKey;
       }
 
+      const response = await fetch("https://www.googleapis.com/datetime/v1/timezones/Asia/Jakarta"); // Replace with your timezone
+      const timeData = await response.json();
+      const dateTime = timeData.dateTime;
+      
       const model = genAI.getGenerativeModel({ model: "gemini-pro" });
       const result = await model.generateContent(input.prompt);
       const response = await result.response;
