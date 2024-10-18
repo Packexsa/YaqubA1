@@ -153,7 +153,7 @@ export default function SessionPage() {
         messages={[
           {
             role: "model",
-            parts: "I'm Gemini Pro, how can I help you?",
+            parts: "Halo, ada yang bisa saya bantu?",
             createdAt: new Date(),
           },
           ...currentSession.messages,
